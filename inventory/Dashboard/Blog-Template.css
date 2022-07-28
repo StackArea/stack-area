@@ -150,3 +150,12 @@
     height: 278px;
   }
 }
+
+.card-heading {
+  font-weight: 30
+}
+
+.warehouse {
+  text-align: center !important;
+  margin-top: 10px !important;
+}

@@ -16,11 +16,12 @@
             $result = mysqli_query($conn, $sql);
             $result_arr = mysqli_fetch_array($result);
             $login_name = $result_arr["User_name"];
+            $user_id = $result_arr["user_id"];
             $login_pass = $result_arr["Password"];
-            echo $login_name;
               if(strcmp($login_pass,$pass)==0) {
-                
-                    header("location: /inventory/Dashboard/index.html");
+                  $_SESSION["user_id"] = $user_id;
+               
+                    header("location: /stack-area/inventory/Dashboard/index.html");
                 
                
             }

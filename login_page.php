@@ -21,7 +21,7 @@
               if(strcmp($login_pass,$pass)==0) {
                   $_SESSION["user_id"] = $user_id;
                
-                    header("location: /stack-area/inventory/Dashboard/index.html");
+                    header("location: /stack-area/inventory/Dashboard/index.php");
                 
                
             }

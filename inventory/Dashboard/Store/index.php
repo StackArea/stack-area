@@ -30,7 +30,7 @@
   <header class="u-clearfix u-header u-white" id="sec-9c37">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
       <div class="u-container-style u-group u-shape-rectangle u-group-1">
-        <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img
+        <!-- <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img
               src="images/561127.png" alt=""></span><span class="u-file-icon u-icon u-icon-2"><img
               src="images/149302.png" alt=""></span>
           <a href="https://nicepage.site"
@@ -42,16 +42,19 @@
                 </path>
               </svg><img></span>&nbsp;ENG
           </a><span class="u-file-icon u-icon u-icon-4"><img src="images/900782.png" alt=""></span>
-        </div>
-      </div>
+        </div>-->
+      </div> 
+
       <div class="u-container-style u-group u-shape-rectangle u-group-2">
         <div class="u-container-layout u-container-layout-2">
+          <a href="../../../Profile/index.php">
           <p class="u-text u-text-default u-text-1">Profile<span style="font-size: 1.25rem;">
               <span style="font-size: 1.5rem;"></span>
             </span>
           </p><span class="u-file-icon u-icon u-icon-5"><img src="images/892498.png" alt=""></span><span
             class="u-file-icon u-icon u-icon-6"><img src="images/3135715.png" alt=""></span>
           <p class="u-text u-text-default u-text-2">Admin User</p>
+          </a>
         </div>
       </div>
       <a href="../index.html"

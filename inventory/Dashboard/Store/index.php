@@ -70,9 +70,8 @@
         </span>
         <br>
       </a>
-      <a href="https://nicepage.com/c/shapes-website-templates"
-        class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2"><span
-          class="u-file-icon u-icon"><img src="images/8040259.png" alt=""></span>&nbsp;Import Product<br>
+      <a href= "./deleteProduct.html" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2"><span
+          class="u-file-icon u-icon"><img src="images/8040259.png" alt=""></span>&nbsp;Delete Product<br>
       </a>
       <div class="u-border-3 u-border-palette-5-light-2 u-container-style u-group u-group-1">
         <div class="u-container-layout u-container-layout-1">

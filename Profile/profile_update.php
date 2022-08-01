@@ -4,7 +4,7 @@
  include "Connection.php";
  if($_SERVER['REQUEST_METHOD']=="POST")
  { 
-    $sql = "SELECT * FROM `Login`";    
+    $sql = "SELECT * FROM `login` WHERE user_id =" .$_SESSION["user_id"];    
         $result = mysqli_query($conn, $sql);
         $result_arr = mysqli_fetch_array($result);
         $cuser_id = $result_arr["user_id"];

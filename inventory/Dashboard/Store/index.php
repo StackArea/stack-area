@@ -88,7 +88,7 @@
       <table class="table">
     <tr>
         <th>ID</th>
-        <th>NAME</th>
+        <th> NAME</th>
         <th>CATEGORY</th>
         <th>SELLER</th>
         <th>QUANTITY</th>

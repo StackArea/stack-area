@@ -56,10 +56,10 @@
           <ul class="u-nav u-spacing-20 u-unstyled u-nav-1">
             <li class="u-nav-item"><a
               class="u-button-style u-nav-link u-text-active-custom-color-10 u-text-grey-90 u-text-hover-custom-color-10"
-              href="./index.php" style="padding: 10px;">KRS</a>
+              href="./index.php" style="padding: 10px;">STACK-AREA</a>
           </li>
 
-            <li class="u-nav-item" style="margin-left: 750px;"><a
+            <li class="u-nav-item" style="margin-left: 700px;"><a
                 class="u-button-style u-nav-link u-text-active-custom-color-10 u-text-grey-90 u-text-hover-custom-color-10"
                 href="./index.php" style="padding: 10px;">Dashboard</a>
             </li>

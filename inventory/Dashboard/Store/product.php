@@ -16,6 +16,6 @@
         $price = $_POST['price'];
         $sql = "INSERT INTO product(`Product_id`, `Product_name`, `Category`, `Seller`, `Quantity`, `Unit_price`) VALUES ('$id', '$name', '$category','$seller', '$quantity', '$price')";
         $result = mysqli_query($conn, $sql);
-        // header("location: index.html");
+        header("location: index.html");
     }
 ?> 

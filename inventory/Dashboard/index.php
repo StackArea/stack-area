@@ -326,35 +326,11 @@
       <div class="u-shape u-shape-rectangle u-white u-shape-7">
 
         <div class="container">
-          <div class="row">
-            <div class="col mt-3 fw-bold text-center">👨‍💼 Admin Details</div>
-          </div>
+          <img class="logo" src="../../images/Screenshot 2022-08-02 082811.png" width="450px" height="300px" alt="">
 
-          <div class="row mt-5 ms-2">
-            <div class="col">
-              Name:
-            </div>
-          </div>
-          <div class="row mt-2 ms-2">
-            <div class="col">
-              Age:
-            </div>
-          </div>
-          <div class="row mt-2 ms-2">
-            <div class="col">
-              Mail:
-            </div>
-          </div>
-          <div class="row mt-2 ms-2">
-            <div class="col">
-              Admin ID:
-            </div>
-          </div>
+
+          <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
         </div>
-
-      </div>
-      <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
-    </div>
   </section>
 
 

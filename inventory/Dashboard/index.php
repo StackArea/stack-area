@@ -321,6 +321,14 @@
       </div>
       <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
     </div>
+      <div class="u-shape u-shape-rectangle u-white u-shape-7">
+
+        <div class="container">
+          <img class="logo" src="../../images/Screenshot 2022-08-02 082811.png" width="450px" height="300px" alt="">
+
+
+          <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
+        </div>
   </section>
 
 

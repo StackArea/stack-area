@@ -164,7 +164,7 @@
                           error_reporting(0);
                           session_start();
                           
-                          $sql = "SELECT SUM(Unit_price) FROM product;";
+                          $sql = "SELECT SUM(Unit_price*Quantity) FROM product;";
                           $result = mysqli_query($conn, $sql);
                           $row = mysqli_fetch_array($result);
                           $worth = $row[0];
@@ -319,16 +319,18 @@
           </div>
         </div>
       </div>
-      <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
-    </div>
       <div class="u-shape u-shape-rectangle u-white u-shape-7">
 
         <div class="container">
-          <img class="logo" src="../../images/Screenshot 2022-08-02 082811.png" width="450px" height="300px" alt="">
+          <img class="logo" src="../../images/Screenshot 2022-08-02 082811.png" width="310px" height="270px" alt="">
 
 
-          <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
+          <!-- <div class="u-shape u-shape-rectangle u-white u-shape-8"></div> -->
         </div>
+      </div>
+      <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
+    </div>
+</div>
   </section>
 
 

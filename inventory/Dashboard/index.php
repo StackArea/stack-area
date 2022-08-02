@@ -59,7 +59,7 @@
               href="./index.php" style="padding: 10px;">STACK-AREA</a>
           </li>
 
-            <li class="u-nav-item" style="margin-left: 700px;"><a
+            <li class="u-nav-item" style="margin-left: 600px;"><a
                 class="u-button-style u-nav-link u-text-active-custom-color-10 u-text-grey-90 u-text-hover-custom-color-10"
                 href="./index.php" style="padding: 10px;">Dashboard</a>
             </li>
@@ -69,7 +69,7 @@
             </li>
             <li class="u-nav-item"><a
                 class="u-button-style u-nav-link u-text-active-custom-color-10 u-text-grey-90 u-text-hover-custom-color-10"
-                href="../../Profile/index.php" style="padding: 10px;">Profile</a>
+                href="/stack-area/Profile/Update.html" style="padding: 10px;"> Edit Profile</a>
 
             </li>
           </ul>
@@ -328,7 +328,60 @@
           <!-- <div class="u-shape u-shape-rectangle u-white u-shape-8"></div> -->
         </div>
       </div>
-      <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
+      <div class="u-shape u-shape-rectangle u-white u-shape-8" > 
+      <?php
+          include "connection.php";
+
+               error_reporting(0);
+               session_start();
+              //  echo "Welcome Server";
+               $sql = "SELECT  * FROM product;";
+               $result = mysqli_query($conn, $sql);
+                $i=0;
+                while ($row =mysqli_fetch_array($result))
+                {
+                  $quantity = $row['Quantity'];
+                
+
+                  if ($quantity<5)
+                    {
+                      $name = $row['Product_name'];
+                      $i=$i+1;
+                    }
+                    
+                }
+                if ($i>0)
+                {
+                  echo "<center><b><h3>Not a  Safestock!</h3></b></center>";
+                  echo "<br>";
+                  echo"<b>The Products Under minimum quantity :</b>";
+
+                  $sql1 = "SELECT  * FROM product;";
+                  $result1 = mysqli_query($conn, $sql1);
+                  while ($row1 =mysqli_fetch_array($result1))
+                {
+                  $quantity1= $row1['Quantity'];
+                  if ($quantity1<5)
+                    {
+                      $name = $row1['Product_name'];
+                      echo "<br>";
+                      echo "$name";
+                    }
+                    
+                }
+                  
+                }
+                else
+                  {
+                    echo "<br>";
+                    echo "<br>";
+                    echo "<center><b><h3>It is Safe Stock!</h3></b></center>";
+                   }   
+                    
+      ?>
+
+
+    </div>
     </div>
 </div>
   </section>

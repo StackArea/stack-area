@@ -91,25 +91,14 @@
   </header>
   <section class="u-border-12 u-border-grey-10 u-clearfix u-white u-section-1" id="sec-0cb2">
     <div class="u-clearfix u-sheet u-sheet-1">
-      <img class="u-image u-image-circle u-image-1" src="images/4.svg" alt="" data-image-width="400"
-        data-image-height="265">
-      <h3 class="u-text u-text-default u-text-1">
-        <span style="font-weight: 700;">hai
-        <?php
-           include "connection.php";
-           error_reporting(0);
-           session_start();
-           echo $_SESSION["user_id"];
-          //  $sql = "SELECT * FROM `user` WHERE user_id =" .$_SESSION["user_id"];    
-          //  $result = mysqli_query($conn, $sql);
-          //  $row = mysqli_fetch_array($result);
-          //  $worth = $row[0];
-          //  echo  "$worth";
-          ?>
+      <!-- <img class="u-image u-image-circle u-image-1" src="images/4.svg" alt="" data-image-width="400"
+        data-image-height="265"> -->
+      <!-- <h3 class="u-text u-text-default u-text-1"> -->
+        <!-- <span style="font-weight: 700;">hai
       
       
       
-      </span>
+      </span> -->
         <span style="font-weight: 700;"></span>
       </h3>
       <a href="./Update.html"
@@ -119,7 +108,7 @@
         </span>
         <br>
       </a>
-      <p class="u-text u-text-default u-text-2">Admin user</p>
+      <!-- <p class="u-text u-text-default u-text-2">Admin user</p> -->
       <div class="u-list u-list-1"></div>
 
 

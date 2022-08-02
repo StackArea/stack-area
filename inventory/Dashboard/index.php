@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <title>Page 1</title>
+  <title>stack-area</title>
   <script src="https://kit.fontawesome.com/5d83fa69d4.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -91,7 +91,7 @@
           <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
         </div>
       </nav>
-      <a href="https://nicepage.review"
+      <a href="/stack-area/index.html"
         class="u-border-2 u-border-custom-color-10 u-border-hover-custom-color-10 u-btn u-btn-round u-button-style u-hover-custom-color-10 u-none u-radius-50 u-btn-1">Log
         Out</a>
     </div>
@@ -127,7 +127,6 @@
                           $result = mysqli_query($conn, $sql);
                           $row = mysqli_fetch_array($result);
                           $total = $row[0];
-                          // echo  "<h3>".$row['count']."</h3>";
                           echo  "$total";
                        ?>
 
@@ -169,7 +168,6 @@
                           $result = mysqli_query($conn, $sql);
                           $row = mysqli_fetch_array($result);
                           $worth = $row[0];
-                          // echo  "<h3>".$row['count']."</h3>";
                           echo  "$worth";
                        ?>
                       </div>
@@ -239,7 +237,6 @@
                           $result = mysqli_query($conn, $sql);
                           $row = mysqli_fetch_array($result);
                           $seller = $row[0];
-                          // echo  "<h3>".$row['count']."</h3>";
                           echo  "$seller";
                        ?>
                       </div>
@@ -279,7 +276,6 @@
                           $result = mysqli_query($conn, $sql);
                           $row = mysqli_fetch_array($result);
                           $category = $row[0];
-                          // echo  "<h3>".$row['count']."</h3>";
                           echo  "$category";
                        ?>
                       </div>
@@ -322,36 +318,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="u-shape u-shape-rectangle u-white u-shape-7">
-
-        <div class="container">
-          <div class="row">
-            <div class="col mt-3 fw-bold text-center">👨‍💼 Admin Details</div>
-          </div>
-
-          <div class="row mt-5 ms-2">
-            <div class="col">
-              Name:
-            </div>
-          </div>
-          <div class="row mt-2 ms-2">
-            <div class="col">
-              Age:
-            </div>
-          </div>
-          <div class="row mt-2 ms-2">
-            <div class="col">
-              Mail:
-            </div>
-          </div>
-          <div class="row mt-2 ms-2">
-            <div class="col">
-              Admin ID:
-            </div>
-          </div>
-        </div>
-
       </div>
       <div class="u-shape u-shape-rectangle u-white u-shape-8"></div>
     </div>

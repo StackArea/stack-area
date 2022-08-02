@@ -53,7 +53,7 @@
             <div class="u-inner-container-layout u-sidenav-overflow">
               <div class="u-menu-close"></div>
               <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-1">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Profile.html">Profile</a>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/stack-area/Profile/index.php">Profile</a>
                 </li>
               </ul>
             </div>
@@ -65,19 +65,19 @@
         <div class="u-repeater u-repeater-1">
           <div class="u-container-style u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-container-layout-1">
-              <a href="../index.html"
+              <a href="/stack-area/inventory/Dashboard/index.php"
                 class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-1">Dashboard</a>
             </div>
           </div>
           <div class="u-container-style u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-container-layout-2">
-              <a href="https://nicepage.com/html-templates"
+              <a href="/stack-area/inventory/Dashboard/Store/index.php"
                 class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-custom-item u-none u-text-body-color u-btn-2">Store</a>
             </div>
           </div>
           <div class="u-container-style u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-container-layout-3">
-              <a href="https://nicepage.studio"
+              <a href="/stack-area/index.html"
                 class="u-border-2 u-border-custom-color-1 u-border-hover-custom-color-1 u-btn u-btn-round u-button-style u-custom-item u-hover-custom-color-1 u-radius-50 u-text-custom-color-1 u-text-hover-white u-white u-btn-3">Log
                 out<br>
               </a>
@@ -85,7 +85,7 @@
           </div>
         </div>
       </div>
-      <a href="https://nicepage.me"
+      <a href="/stack-area/Profile/index.php"
         class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-1-base u-btn u-button-style u-none u-text-body-color u-btn-4">Profile</a>
     </div>
   </header>
@@ -94,7 +94,22 @@
       <img class="u-image u-image-circle u-image-1" src="images/4.svg" alt="" data-image-width="400"
         data-image-height="265">
       <h3 class="u-text u-text-default u-text-1">
-        <span style="font-weight: 700;">Name</span>
+        <span style="font-weight: 700;">hai
+        <?php
+           include "connection.php";
+           error_reporting(0);
+           session_start();
+           echo $_SESSION["user_id"];
+          //  $sql = "SELECT * FROM `user` WHERE user_id =" .$_SESSION["user_id"];    
+          //  $result = mysqli_query($conn, $sql);
+          //  $row = mysqli_fetch_array($result);
+          //  $worth = $row[0];
+          //  echo  "$worth";
+          ?>
+      
+      
+      
+      </span>
         <span style="font-weight: 700;"></span>
       </h3>
       <a href="./Update.html"

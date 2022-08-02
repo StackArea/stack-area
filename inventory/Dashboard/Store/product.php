@@ -14,7 +14,7 @@
         $quantity = $_POST['qty'];
         $seller = $_POST['seller'];
         $price = $_POST['price'];
-        $sql = "SELECT * FROM product WHERE Product_id = '$id'";
+        $sql = "SELECT * FROM product WHERE Product_id = '$id' AND Seller = '$seller';";
         $result = mysqli_query($conn, $sql);
         $row = mysqli_fetch_array($result);
         if ($row)
